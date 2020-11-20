@@ -1,0 +1,31 @@
+.main {
+	padding: 1.5rem;
+	background: var(--color-white);
+	border-radius: var(--border-300);
+	width: 100%;
+	color: var(--color-grey-700);
+	font-family: var(--font-family) !important;
+	-webkit-box-shadow: 2px 2px 8px -5px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 2px 2px 8px -5px rgba(0, 0, 0, 0.05);
+	box-shadow: 2px 2px 8px -5px rgba(0, 0, 0, 0.05);
+	&.donutChart {
+		height: fit-content;
+	}
+	h2,
+	p {
+		margin: 0 0 0.3rem;
+		font-family: var(--font-family) !important;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	text {
+		color: var(--color-grey-700) !important;
+	}
+
+	.apexcharts-datalabels {
+		text {
+			display: none;
+		}
+	}
+}
